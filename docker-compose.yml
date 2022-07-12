@@ -7,3 +7,4 @@ services:
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
       - ./etc:/etc/earnapp
+ 
