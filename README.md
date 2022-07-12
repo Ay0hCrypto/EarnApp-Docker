@@ -20,3 +20,5 @@ git clone https://github.com/ay0hcrypto/earnapp_docker.git
     https://earnapp.com/r/SDK-NODE-ADDRESS-HERE
 
 4. Provide the above web address to user to Link Device.
+
+5. To initialize after User Links to Account. Have user stop/start app from dashboard.
