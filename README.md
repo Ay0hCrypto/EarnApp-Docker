@@ -16,7 +16,7 @@ git clone https://github.com/ay0hcrypto/earnapp_docker.git
 1. Make a directory for earnapp data
     - `mkdir $HOME/earnapp-data`
 2. Run the container
-    - `docker run -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp --name earnapp ay0hcrypto/earnapp`
+    - `docker run -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp --name earnapp fazalfarhan01/earnapp`
     `
 3. Get the UUID
     - `docker exec -it earnapp showid`
